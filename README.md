@@ -78,3 +78,11 @@ La aplicación se ejecuta desde consola. Al iniciarla, se presenta un menú inte
 - Los productos textiles aparecen primero
 - Textiles ordenados por composición
 - Resto ordenado por nombre
+
+---
+
+## 📚 Documentación
+
+Puedes consultar la documentación Javadoc del proyecto aquí:
+
+👉 https://agatemosu.github.io/SinTitulizaa/
