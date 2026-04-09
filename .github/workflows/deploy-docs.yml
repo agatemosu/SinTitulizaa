@@ -24,12 +24,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Set up JDK
-        uses: actions/setup-java@v5
-        with:
-          java-version: 21
-          distribution: temurin
-
       - name: Install Doxygen & Graphviz
         run: |
           sudo apt update
