@@ -7,13 +7,9 @@ import mercajoja.products.Product;
 import java.util.ArrayList;
 import java.util.Map;
 
-/**
- * Menú del carrito.
- */
+/// Menú del carrito.
 public class CartMenu {
-    /**
-     * Muestra los productos del carrito junto con la cantidad añadida de cada uno.
-     */
+    /// Muestra los productos del carrito junto con la cantidad añadida de cada uno.
     public static void showCart() {
         System.out.println("------------");
         System.out.println("-- Carret --");

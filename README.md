@@ -83,6 +83,6 @@ La aplicación se ejecuta desde consola. Al iniciarla, se presenta un menú inte
 
 ## 📚 Documentación
 
-Puedes consultar la documentación Javadoc del proyecto aquí:
+Puedes consultar la documentación del proyecto aquí:
 
 👉 https://agatemosu.github.io/SinTitulizaa/

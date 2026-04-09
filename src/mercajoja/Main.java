@@ -6,20 +6,14 @@ import mercajoja.menus.ProductMenu;
 
 import java.util.Scanner;
 
-/**
- * Clase principal de la aplicación.
- */
+/// Clase principal de la aplicación.
 public class Main {
-    /**
-     * Scanner global para leer la entrada del usuario desde consola.
-     */
+    /// Scanner global para leer la entrada del usuario desde consola.
     public static final Scanner sc = new Scanner(System.in);
 
-    /**
-     * Método principal de la aplicación.
-     *
-     * @param args Argumentos de la línea de comandos.
-     */
+    /// Método principal de la aplicación.
+    ///
+    /// @param args Argumentos de la línea de comandos.
     public static void main(String[] args) {
         while (true) {
             printMenu();

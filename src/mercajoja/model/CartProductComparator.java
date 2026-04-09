@@ -6,9 +6,7 @@ import mercajoja.products.TextileProduct;
 
 import java.util.Comparator;
 
-/**
- * Comparador de {@link Product} para {@link CartMenu}.
- */
+/// Comparador de [Product] para [CartMenu].
 public class CartProductComparator implements Comparator<Product> {
     @Override
     public int compare(Product p1, Product p2) {

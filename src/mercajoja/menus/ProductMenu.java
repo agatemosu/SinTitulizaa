@@ -10,13 +10,9 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-/**
- * Menú para añadir productos al carrito.
- */
+/// Menú para añadir productos al carrito.
 public class ProductMenu {
-    /**
-     * Formulario para añadir un producto al carrito.
-     */
+    /// Formulario para añadir un producto al carrito.
     public static void addProduct() {
         while (true) {
             System.out.println("--------------");

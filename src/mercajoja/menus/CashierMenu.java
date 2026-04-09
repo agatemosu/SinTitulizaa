@@ -6,13 +6,9 @@ import mercajoja.products.Product;
 import java.time.LocalDate;
 import java.util.Map;
 
-/**
- * Menú del cajero.
- */
+/// Menú del cajero.
 public class CashierMenu {
-    /**
-     * Muestra el resumen de compra y vacía el carrito.
-     */
+    /// Muestra el resumen de compra y vacía el carrito.
     public static void goToCashier() {
         System.out.println("---------------------------");
         System.out.println("MERCAJOJA");
