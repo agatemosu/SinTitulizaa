@@ -9,13 +9,16 @@ import java.util.Map;
 
 /// Menú del carrito.
 public class CartMenu {
+    private CartMenu() {
+    }
+
     /// Muestra los productos del carrito junto con la cantidad añadida de cada uno.
     public static void showCart() {
         System.out.println("------------");
         System.out.println("-- Carret --");
         System.out.println("------------");
 
-        var entries = new ArrayList<>(Cart.getCart().entrySet());
+        var entries = new ArrayList<>(Cart.getProducts().entrySet());
 
         var comparator = new CartProductComparator();
         entries.sort((e1, e2) -> comparator.compare(e1.getKey(), e2.getKey()));

@@ -26,6 +26,7 @@ public class Main {
                 case "Q", "q" -> {
                     return;
                 }
+                default -> throw new IllegalStateException("Unexpected value: " + choice);
             }
         }
     }

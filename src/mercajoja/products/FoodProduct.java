@@ -23,4 +23,14 @@ public class FoodProduct extends Product {
         long daysToExpiry = ChronoUnit.DAYS.between(LocalDate.now(), expiryDate);
         return price - price * (1.0 / (daysToExpiry + 1.0)) + price * 0.1;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

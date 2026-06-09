@@ -12,6 +12,9 @@ import java.time.format.DateTimeParseException;
 
 /// Menú para añadir productos al carrito.
 public class ProductMenu {
+    private ProductMenu() {
+    }
+
     /// Formulario para añadir un producto al carrito.
     public static void addProduct() {
         while (true) {
@@ -92,6 +95,7 @@ public class ProductMenu {
                         var p = new ElectronicProduct(productName, price, barcode, warrantyDays);
                         Cart.addProduct(p);
                     }
+                    default -> throw new IllegalStateException("Unexpected value: " + choice);
                 }
             } catch (NumberFormatException ignored) {
                 System.out.println("Format numèric incorrecte.");

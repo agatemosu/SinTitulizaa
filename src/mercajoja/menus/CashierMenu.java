@@ -8,6 +8,9 @@ import java.util.Map;
 
 /// Menú del cajero.
 public class CashierMenu {
+    private CashierMenu() {
+    }
+
     /// Muestra el resumen de compra y vacía el carrito.
     public static void goToCashier() {
         System.out.println("---------------------------");
@@ -15,7 +18,7 @@ public class CashierMenu {
         System.out.println("---------------------------");
         System.out.println("Data: " + LocalDate.now());
         System.out.println("---------------------------");
-        Cart.getCart()
+        Cart.getProducts()
                 .entrySet()
                 .stream()
                 .sorted(Map.Entry.comparingByKey())

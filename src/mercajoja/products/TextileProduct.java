@@ -21,4 +21,14 @@ public class TextileProduct extends Product {
     public String getComposition() {
         return composition;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

@@ -19,4 +19,14 @@ public class ElectronicProduct extends Product {
     public double getPrice() {
         return price + price * warrantyDays / 365.0 * 0.1;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

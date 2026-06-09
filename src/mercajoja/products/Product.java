@@ -17,7 +17,7 @@ public abstract class Product implements Comparable<Product> {
     /// @param name    El nombre del producto.
     /// @param price   El precio base del producto.
     /// @param barcode El código de barras del producto.
-    public Product(String name, double price, int barcode) {
+    protected Product(String name, double price, int barcode) {
         this.name = name;
         this.price = price;
         this.barcode = barcode;
