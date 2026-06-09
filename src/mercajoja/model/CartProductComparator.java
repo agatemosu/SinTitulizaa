@@ -16,8 +16,12 @@ public class CartProductComparator implements Comparator<Product> {
         }
 
         // mover el producto textil hacia arriba
-        if (p1 instanceof TextileProduct) return -1;
-        if (p2 instanceof TextileProduct) return 1;
+        if (p1 instanceof TextileProduct) {
+            return -1;
+        }
+        if (p2 instanceof TextileProduct) {
+            return 1;
+        }
 
         // ordenar por nombre si ninguno de los dos productos es textil
         return p1.getName().compareTo(p2.getName());

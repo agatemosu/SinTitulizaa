@@ -2,8 +2,8 @@ package mercajoja.products;
 
 import java.util.Objects;
 
-/// Representa un producto genérico.
-/// Clase abstracta que proporciona atributos comunes a todos los productos.
+/// Representa un producto genérico. Clase abstracta que proporciona atributos
+/// comunes a todos los productos.
 public abstract class Product implements Comparable<Product> {
     /// El nombre del producto.
     protected final String name;
@@ -46,8 +46,12 @@ public abstract class Product implements Comparable<Product> {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (!(obj instanceof Product product)) return false;
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof Product product)) {
+            return false;
+        }
         return barcode == product.barcode;
     }
 

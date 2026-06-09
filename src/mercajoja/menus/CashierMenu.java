@@ -26,6 +26,8 @@ public class CashierMenu {
     }
 
     private static void printEntry(Product product, int quantity) {
-        System.out.printf("%s - %s%n  %.2f * %d = %.2f%n", product.getBarcode(), product.getName(), product.getPrice(), quantity, product.getPrice() * quantity);
+        System.out.printf("%s - %s%n  %.2f * %d = %.2f%n",
+                product.getBarcode(), product.getName(),
+                product.getPrice(), quantity, product.getPrice() * quantity);
     }
 }
