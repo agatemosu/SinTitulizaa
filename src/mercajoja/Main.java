@@ -11,7 +11,7 @@ public class Main {
     /// Scanner global para leer la entrada del usuario desde consola.
     public static final Scanner sc = new Scanner(System.in);
 
-    /// Método principal de la aplicación.
+    /// Hola!
     ///
     /// @param args Argumentos de la línea de comandos.
     public static void main(String[] args) {
